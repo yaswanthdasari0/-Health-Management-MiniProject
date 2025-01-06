@@ -1,0 +1,89 @@
+/* SubmittedData.css */
+
+/* Container for the entire page */
+.submitted-data-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Page title */
+.page-title {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Grid layout for submission cards */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Each submission card */
+.submission-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Submission card title */
+.submission-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: center;
+}
+
+/* Field container */
+.data-field {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Label for each field */
+.field-label {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+/* Value for each field */
+.field-value {
+  font-size: 1.1em;
+  color: #555;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+}
+
+/* Additional styling for spacing and readability */
+.field-value span {
+  display: block;
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #e6f7ff;
+  word-wrap: break-word;
+}
+.progress-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.progress-button:hover {
+  background-color: #45a049;
+}

@@ -1,0 +1,25 @@
+.progress-container {
+  padding: 20px;
+}
+
+.chart-section {
+  margin-bottom: 30px;
+}
+
+.health-status {
+  margin-top: 10px;
+}
+
+.health-status p {
+  margin: 5px 0;
+}
+
+.good {
+  color: green;
+  font-weight: bold;
+}
+
+.bad {
+  color: red;
+  font-weight: bold;
+}
